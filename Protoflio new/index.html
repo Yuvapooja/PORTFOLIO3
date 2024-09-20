@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><i class="fas fa-user"></i>  POOJA V</h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home"><i class="fas fa-house-user"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#skills"><i class="fa-solid fa-eye"></i> Skills</a></li>
+                    <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero">
+              <h2>Welcome to My Portfolio</h2>
+              <p>FRONTEND DEVELOPER | SOFTWARE ENGINEER</p>
+              <div class="hero-images">
+                <img
+                  src="imgs/img6.jpg"
+                  alt="Image 1" width="150px" heigth="10px"
+                  class="hero-image"
+                />
+              </div>
+            </div>
+          </section>
+    
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p id="pa">Dedicated Front-End Developer With knowledge in front-end development and a basic understanding of web
+                technologies,starting to learn back-end development.Eager to solve problems and continuously improve. Aiming
+                to leverage front-end expertise and develop back-end skills to contribute to innovative projects.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-categories">
+                <div class="skills-category">
+                    <h3 class="title">Web Designing</h3>
+                    <div class="skills-container">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">SCSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React js</div>
+                        <p class="skills-description">
+                            "I specialize in developing responsive, interactive web applications using HTML, CSS, SCSS, JavaScript, and React.js. With a strong focus on modern, user-friendly interfaces, I ensure seamless functionality across various devices. My proficiency in SCSS allows for writing clean, maintainable styles, while React.js helps create dynamic, performance-optimized user experiences. I am committed to delivering efficient, scalable code that enhances performance and user engagement, creating websites that not only look great but work flawlessly."
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="skills-category">
+                    <h3 class="title">Programming Languages</h3>
+                    <div class="skills-container">
+                        <div class="skill">C</div>
+                        <div class="skill">C++</div>
+                        <div class="skill">Java</div>
+                        <p class="skills-description">
+                            I have a solid understanding of C, C++, and Java, with a focus on Object-Oriented Programming (OOP) concepts like inheritance and polymorphism. I use these languages to write efficient, scalable, and maintainable code, solving problems with a focus on performance and structure.
+
+
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 class="title">DataBase</h3>
+                    <div class="skills-container">
+                        <div class="skill">SQL</div>
+                        <div class="skill">MongoDB</div>
+                        <p class="skills-description">
+                            I am experienced in working with MySQL for relational databases and MongoDB for NoSQL solutions. These tools allow me to efficiently manage, store, and retrieve data while optimizing performance for various applications.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="skills-category">
+                    <h3 class="title">Tools</h3>
+                    <div class="skills-container">
+                        <div class="skill">Git</div>
+                        <div class="skill">GitHub</div>
+                        <p class="skills-description">
+                            I am proficient in using Git for version control and collaboration, allowing me to track changes and manage code efficiently. My understanding of GitHub enables me to collaborate effectively on projects, contributing to team workflows and maintaining organized repositories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Responsive Restaurant Websit</h3>
+                    <p>Utilizing HTML, CSS,Developed a responsive restaurant website ensuring a seamless user experience across devices.</p>
+                </div>
+                <div class="project">
+                    <h3>Automated Form Filling System for Fertilizer Inspectors (Mini Project)</h3>
+                    <p>Leveraging HTML, CSS, JavaScript, Node.js and MongoDB, Developed a website for automated form filling to reduce repetitive data entry and minimize errors associated
+                        with manual data input.</p>
+                </div>
+                <div class="project">
+                    <h3>Snake Game</h3>
+                    <p>Created a classic Snake Game using HTML, CSS, and JavaScript. Features include scoring, random food
+                        placement, keyboard-controlled movement, collision detection, and a pause option</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+<hr>
+    <footer>
+        <div class="footer-container">
+          <p>© 2024 My Portfolio. All rights reserved.</p>
+          <div class="social-links">
+            <a href="https://github.com/Yuvapooja" target="_blank"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/pooja-v-86610b284/" target="_blank"
+              ><i class="fab fa-linkedin"></i> LinkedIn</a
+            >
+            <a href="mailto:poojavelusamy03@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
